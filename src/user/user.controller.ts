@@ -34,4 +34,9 @@ export class UserController {
   getAllComments(@Query('limit') limit: number) {
     return this.commentService.findAll(limit);
   }
+
+  @Get('/my-comment')
+  getMyComments(@Request() request: any) {
+    return this.commentService.findMyComments(request.user.id);
+  }
 }
