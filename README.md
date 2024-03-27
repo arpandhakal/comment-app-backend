@@ -16,7 +16,7 @@ Swagger Configuration is done in the project for clear api references and collec
 
 ![image](https://github.com/arpandhakal/comment-app-backend/assets/46821825/d31a332f-bdfa-45d0-b668-29fc69a31414)
 
-## Running the app with docket 
+## Running the app with docker
 
 1. Clone the repository : git clone <url>
 2. docker build -t <imagename> .
